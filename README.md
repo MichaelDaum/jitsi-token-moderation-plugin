@@ -53,7 +53,8 @@ Token body should look something like this:
       "avatar": "https:/gravatar.com/avatar/abc123",
       "name": "John Doe",
       "email": "jdoe@example.com",
-      "id": "abcd:a1b2c3-d4e5f6-0abc1-23de-abcdef01fedcba"
+      "id": "abcd:a1b2c3-d4e5f6-0abc1-23de-abcdef01fedcba",
+      "moderator": true,
     },
     "group": "a123-123-456-789"
   },
@@ -61,7 +62,6 @@ Token body should look something like this:
   "iss": "your_app_id",
   "sub": "meet.example.com",
   "room": "your_room",
-  "moderator": true,
   "nbf": 1664475176,
   "exp": 1695998576
 }
